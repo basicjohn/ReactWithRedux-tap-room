@@ -1,0 +1,274 @@
+{
+  "yearRound": [
+    {
+      "id": "df3dab63-1f67-43b6-ab5c-5065cd864814",
+      "name": "IRA",
+      "pricePerUnit": 5,
+      "unitsLeftInKeg": 124,
+      "unitsPerKeg": 124,
+      "numberOfKegs": 3,
+      "costPerKeg": 248,
+      "abv": 6.5,
+      "ibu": 65,
+      "description": "Our India Red Ale uses plenty of Northwest-grown, Brewer’s Gold and Simcoe hops. With a solid foundation of Pilsner and crystal malts and our inimitable house yeast, these ingredients intertwine in delicious complexity and a shining ruby hue."
+    },
+    {
+      "id": "53e5bc74-26e9-4228-a4b6-6b0929695772",
+      "name": "Kolsch",
+      "pricePerUnit": 5,
+      "unitsLeftInKeg": 124,
+      "unitsPerKeg": 124,
+      "numberOfKegs": 3,
+      "costPerKeg": 248,
+      "abv": 5.2,
+      "ibu": 40,
+      "description": "This unfiltered Ale features a unique yeast strain, providing restrained fruited aromas to complement the rounded malt quality; with a touch more hop character than its counterpart in Cologne. Crisp, dry, and highly refreshing."
+    },
+    {
+      "id": "73ebe2eb-f1ca-45c0-a645-4bc8faafb462",
+      "name": "Hop Lion",
+      "pricePerUnit": 5,
+      "unitsLeftInKeg": 124,
+      "unitsPerKeg": 124,
+      "numberOfKegs": 3,
+      "costPerKeg": 248,
+      "abv": 6.7,
+      "ibu": 65,
+      "description": "Tropic resin, tangerine, evergreen, and the earthy scent of Northwest petrichor leap from the nose of this proud IPA. Tangelo and fresh bread stalk closely behind, finishing with orange and dank pine."
+    },
+    {
+      "id": "827c8dca-136f-4799-b207-dc6a950cad35",
+      "name": "Vaporizer",
+      "pricePerUnit": 5,
+      "unitsLeftInKeg": 124,
+      "unitsPerKeg": 124,
+      "numberOfKegs": 3,
+      "costPerKeg": 248,
+      "abv": 6.0,
+      "ibu": 55,
+      "description": "Challenger hops, Pilsner malt, and our house yeast strain are the headliners in this easy Pale. The result is agile, alluringly herbal, and supremely refreshing. The dry hop really makes this one sing."
+    },
+    {
+      "id": "6435a056-bc1b-4ce9-936d-d530c871dd4a",
+      "name": "Juicy IPA",
+      "pricePerUnit": 5,
+      "unitsLeftInKeg": 124,
+      "unitsPerKeg": 124,
+      "numberOfKegs": 3,
+      "costPerKeg": 248,
+      "abv": 5.6,
+      "ibu": 25,
+      "description": "Challenger hops, Pilsner malt, and our house yeast strain are the headliners in this easy pale. The result is agile, alluringly herbal, and supremely refreshing. The dry hop really makes this one sing."
+    }
+  ],
+  "seasonal": [
+    {
+      "id": "1fdb0a7c-3132-481a-a26a-73f828fb6015",
+      "name": "Ranger Chocolate Stout",
+      "pricePerUnit": 5,
+      "unitsLeftInKeg": 124,
+      "unitsPerKeg": 124,
+      "numberOfKegs": 3,
+      "costPerKeg": 248,
+      "abv": 6.8,
+      "ibu": 55,
+      "description": "Shorter days and colder temperatures mean it’s time to dust off the sweaters and cozy up with a stout. Brewed in collaboration with Ranger Chocolate Co., this beer goes down smooth with notes of dark rye bread, baking chocolate, molasses, and dark fruit, leading to a dry finish."
+    },
+    {
+      "id": "76c051b2-916f-4cba-9833-2905633cb428",
+      "name": "Bullwheel IPA",
+      "pricePerUnit": 5,
+      "unitsLeftInKeg": 124,
+      "unitsPerKeg": 124,
+      "numberOfKegs": 3,
+      "costPerKeg": 248,
+      "abv": 6.3,
+      "ibu": 45,
+      "description": "A steady lift of bright citrus and pineapple point the tips downhill, carving their way through pillowy evergreen while balancing minimal bitterness. Brewed for our friends at Mt. Hood Meadows, this après IPA keeps it smooth and easy to knock back."
+    },
+    {
+      "id": "a2cea26a-02dd-498d-9c16-2b6d7a5f5c64",
+      "name": "Westerly Pilsner",
+      "pricePerUnit": 5,
+      "unitsLeftInKeg": 124,
+      "unitsPerKeg": 124,
+      "numberOfKegs": 3,
+      "costPerKeg": 248,
+      "abv": 5.2,
+      "ibu": 25,
+      "description": "Goin’ out west, where they appreciate a lager with some extra hops.  This Northwest inspired Pilsner is crisp and dry with a hint of spice from the addition of rye, and just bitter enough to remind you that you’re not in Bohemia anymore. Go west!"
+    },
+    {
+      "id": "a7127ada-8556-4ae2-b765-8b6f1c3e2e70",
+      "name": "Burnside Skatepark IPA",
+      "pricePerUnit": 5,
+      "unitsLeftInKeg": 124,
+      "unitsPerKeg": 124,
+      "numberOfKegs": 3,
+      "costPerKeg": 248,
+      "abv": 5.2,
+      "ibu": 30,
+      "description": "Unsanctioned. Self-funded. Infamous. The Burnside Skatepark has been creating legends for thirty years. In honor of their “pearl” anniversary, we created this immensely crushable juice bomb of a Juicy IPA. Cheers to thirty more."
+    },
+    {
+      "id": "1cf6a638-81c9-42e6-9b96-a230beff1c8b",
+      "name": "Killer Red",
+      "pricePerUnit": 5,
+      "unitsLeftInKeg": 124,
+      "unitsPerKeg": 124,
+      "numberOfKegs": 3,
+      "costPerKeg": 248,
+      "abv": 7.0,
+      "ibu": 78,
+      "description": "The exorbitant amount of fresh Centennial and Simcoe whole leaf hops heaped into the kettle and hop back give this juiced up IRA a wonderful ripe apple, juicy forest, and fruited pine flavors and aromas, with a hint of caramel."
+    },
+    {
+      "id": "4ffe70d0-4402-4fb7-96aa-8c53b0ee9f55",
+      "name": "Killer Green",
+      "pricePerUnit": 5,
+      "unitsLeftInKeg": 124,
+      "unitsPerKeg": 124,
+      "numberOfKegs": 3,
+      "costPerKeg": 248,
+      "abv": 7.3,
+      "ibu": 96,
+      "description": "Brewer’s Gold and Simcoe hops straight from the vine to the boil. Fresh bright evergreen, red fruit, and blood orange lead the way, pulling juicy pine and kind herb through the finish. Be green. Drink Killer Green."
+    },
+    {
+      "id": "e7da9d6c-1885-4270-a07f-3177913a0156",
+      "name": "Killer Juicy",
+      "pricePerUnit": 5,
+      "unitsLeftInKeg": 124,
+      "unitsPerKeg": 124,
+      "numberOfKegs": 3,
+      "costPerKeg": 248,
+      "abv": 5.4,
+      "ibu": 30,
+      "description": "A dense tropical rainforest drips with sticky, delicious mango, ripe summer peach, light cannabis, and deep orange. With hops this fresh from the Willamette Valley, the decision to make this beer was the right decision. Clearly."
+    }
+  ],
+  "smallBatch": [
+    {
+      "id": "0487f8fc-c0fc-4523-84c6-36ed0e3d905f",
+      "name": "Go-To Lager",
+      "pricePerUnit": 8,
+      "unitsLeftInKeg": 62,
+      "unitsPerKeg": 62,
+      "numberOfKegs": 3,
+      "costPerKeg": 248,
+      "abv": 4.8,
+      "ibu": 15,
+      "description": "Carefree and easy, this lager keeps it clean, crisp and light with notes of biscuit and delicate citrus. Everyone needs a Go To. Do you have yours?"
+    },
+    {
+      "id": "44ee3c31-5110-4903-a480-d7437f8f07c5",
+      "name": "Hop Lava",
+      "pricePerUnit": 8,
+      "unitsLeftInKeg": 62,
+      "unitsPerKeg": 62,
+      "numberOfKegs": 3,
+      "costPerKeg": 248,
+      "abv": 7.0,
+      "ibu": 75,
+      "description": "This big, glowing, powerful IPA is packed with copious amounts of Northwest hops. We balance the considerable hop flavor with a sturdy backbone of malty goodness. The result? Explosive!"
+    },
+    {
+      "id": "a91356b2-c17e-4e25-b036-627d88294f27",
+      "name": "Basic Rights IPA",
+      "pricePerUnit": 8,
+      "unitsLeftInKeg": 62,
+      "unitsPerKeg": 62,
+      "numberOfKegs": 3,
+      "costPerKeg": 248,
+      "abv": 7.2,
+      "ibu": 58,
+      "description": " Double Fountain and local artist Mark Nilsson bring the beauty of Hood River together with a colorful array of English Malts our favorite local hops. Celebrating the rich diversity of all Oregonians, this IPA will be featured at Pride events throughout the Northwest. A portion of the profits benefit Basic Rights Oregon."
+    },
+    {
+      "id": "6b4e5855-e62e-441a-82f0-f181c84231c0",
+      "name": "Homestead Pale Ale",
+      "pricePerUnit": 8,
+      "unitsLeftInKeg": 62,
+      "unitsPerKeg": 62,
+      "numberOfKegs": 3,
+      "costPerKeg": 248,
+      "abv": 5.5,
+      "ibu": 50,
+      "description": "Citrus and resinous evergreen aromas greet you at the front gate, and the gracious golden hued host shows you to the rocking chair on the porch. This Northwest Pale Ale is satisfying, and highly drinkable. Brewed in honor of The Homestead at Denison University. My it’s dank in here."
+    },
+    {
+      "id": "aac22843-4e2a-47fa-88e7-cfb7b5be894e",
+      "name": "Blood Of Dracarla",
+      "pricePerUnit": 8,
+      "unitsLeftInKeg": 62,
+      "unitsPerKeg": 62,
+      "numberOfKegs": 3,
+      "costPerKeg": 248,
+      "abv": 6.66,
+      "ibu": 35,
+      "description": "Portland’s premier drag clown Carla Rossi, horror hostess of Queer Horror at the Hollywood Theatre, presents a terrifying treat in collaboration with  Double Fountain. This deep crimson brew blushes with aromas of dark red fruit, ripe citrus, and a hint of luscious caramel. Find out more at TheCarlaRossi.com and crawl in to the crypt at Queer-Horror.com."
+    }
+  ],
+  "reserve": [
+    {
+      "id": "7128d7ed-1815-44cc-8995-3ea156dafc77",
+      "name": "Devil's Kriek",
+      "pricePerUnit": 9,
+      "unitsLeftInKeg": 12,
+      "unitsPerKeg": 12,
+      "numberOfKegs": 3,
+      "costPerKeg": 248,
+      "abv": 9.2,
+      "ibu": 11,
+      "description": "Our two house yeast strains share the field with Brettanomyces Lambicus and Van and Bing cherries from the  Double Fountain Orchards in this Belgian style sour. Resting on the fruit for over a year, time gives way to marionberry, tannic ripe blackberry, and sweet spring strawberry leading through a tart, dry red wine finish."
+    },
+    {
+      "id": "dfff1c11-cf96-46fb-99d6-ff1b993b4854",
+      "name": "Tahoma Kriek",
+      "pricePerUnit": 9,
+      "unitsLeftInKeg": 12,
+      "unitsPerKeg": 12,
+      "numberOfKegs": 3,
+      "costPerKeg": 248,
+      "abv": 7.0,
+      "ibu": 80,
+      "description": "Rainier cherries from the Hood River Valley are harvested and sent to the brewery where they’re crushed, then added to a strong Belgian blonde base beer. This little gem sat on the fruit with three yeast strains for 13 months in our cellars, surrendering flavors of tart stone fruit, pithy grapefruit, and kumquat."
+    },
+    {
+      "id": "312aa755-79c8-4096-9ec7-bd24dfff2a9e",
+      "name": "Tahoma Cuvée",
+      "pricePerUnit": 9,
+      "unitsLeftInKeg": 12,
+      "unitsPerKeg": 12,
+      "numberOfKegs": 3,
+      "costPerKeg": 248,
+      "abv": 9.6,
+      "ibu": 11,
+      "description": "Select batches of Tahoma Kriek were racked off of the fruit and aged further in new oak barrels. This brewer’s blend is a confluence of our favorite barrels; ripe with brightcherry, smooth oak, and a tart finish."
+    },
+    {
+      "id": "d67896f7-bde8-4e47-a9bd-13fbeb483a9c",
+      "name": "Pêche Mode",
+      "pricePerUnit": 9,
+      "unitsLeftInKeg": 12,
+      "unitsPerKeg": 12,
+      "numberOfKegs": 3,
+      "costPerKeg": 248,
+      "abv": 8.7,
+      "ibu": 8,
+      "description": "With nearly 500 pounds of peaches, this Belgian Ale ferments on the fruit with our house yeast and Brettanomyces Lambicus for nine months. The result is a juicy, paradise. Lightly tart and refreshing, this one drinks easy, with juicy peach and ripe citrus peeking through a farmhouse of funk."
+    },
+    {
+      "id": "74449a90-948a-4a0a-a014-8d0ed730d5d5",
+      "name": "Pêche Cuvée",
+      "pricePerUnit": 9,
+      "unitsLeftInKeg": 12,
+      "unitsPerKeg": 12,
+      "numberOfKegs": 3,
+      "costPerKeg": 248,
+      "abv": 8.4,
+      "ibu": 8,
+      "description": "This Cuvée is the pick of the peach tree. A select amount of our Pêche Mode racked off of the fruit and rested in new oak barrels. Farmhouse funk and juicy peach lead to a dry oak finish."
+    }
+  ]
+}

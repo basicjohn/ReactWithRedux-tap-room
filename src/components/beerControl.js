@@ -1,19 +1,16 @@
 import React, { Component } from 'react';
-// Components
-import Header from './components/Header'
-import Footer from './components/Footer'
 // Pages
-import Admin from './pages/Admin';
-import Home from './pages/Home';
-import YearRound from './pages/YearRound';
-import Seasonal from './pages/Seasonal';
-import SmallBatch from './pages/SmallBatch';
-import Reserve from './pages/Reserve';
-import BeerDetail from './pages/BeerDetail';
+import Admin from './../pages/Admin';
+import Home from './../pages/Home';
+import YearRound from './../pages/YearRound';
+import Seasonal from './../pages/Seasonal';
+import SmallBatch from './../pages/SmallBatch';
+import Reserve from './../pages/Reserve';
+import BeerDetail from './../pages/BeerDetail';
 import { v4 } from 'uuid';
 
 // Helpers/data
-import kegsJson from './kegs.json';
+import kegsJson from './../kegs.json';
 
 class BeerControl extends Component {
   constructor(props) {
@@ -84,13 +81,9 @@ class BeerControl extends Component {
     }
 
     return (
-      <div className="App">
-        <Header navigateTo={this.navigateTo} />
-        <main>
-          {currentlyVisibleState}
-        </main>
-        <Footer />
-      </div>
+      <main>
+        {currentlyVisibleState}
+      </main>
     );
   }
 }

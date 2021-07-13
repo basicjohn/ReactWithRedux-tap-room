@@ -47,6 +47,6 @@ const beerData = {
   test('Should return default state if no action type is recognized', () => {
     expect(beerListReducer({}, {type: null})).toEqual({});
   });
-
+  test('Should successfully add new beer data to beersTicketList')
 
 })

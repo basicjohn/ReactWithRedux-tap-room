@@ -1,4 +1,4 @@
-export default (state = {}, action) => {
+function ticketListReducer (state = {}, action) {
   const {id, department, name, pricePerUnit, unitsPerKeg, numberOfKegs, costPerKeg, abv, ibu, description} = action;
   switch (action.type) {
     case 'ADD_BEER':
@@ -16,10 +16,12 @@ export default (state = {}, action) => {
           description: description
         }
       });
-      case 'DELETE_BEER':
-        const newState = { ...state };
-        delete newState[id];
+      // case 'DELETE_BEER':
+      //   const newState = { ...state };
+      //   delete newState[id];
       default:
         return state;
   }
 };
+
+export default ticketListReducer;

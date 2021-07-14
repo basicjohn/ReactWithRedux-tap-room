@@ -44,9 +44,9 @@ const beerData = {
     "description": "Our India Red Ale uses plenty of Northwest-grown, Brewer’s Gold and Simcoe hops. With a solid foundation of Pilsner and crystal malts and our inimitable house yeast, these ingredients intertwine in delicious complexity and a shining ruby hue."
 };
 
-  test('Should return default state if no action type is recognized', () => {
+  test('Should return default state if there is no action type passed into the reducer', () => {
     expect(beerListReducer({}, {type: null})).toEqual({});
   });
-  test('Should successfully add new beer data to beersTicketList')
+  // test('Should successfully add new beer data to beersTicketList')
 
-})
+});

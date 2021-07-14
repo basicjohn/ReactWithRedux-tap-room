@@ -1,3 +1,6 @@
+// import kegsJson from './../kegs.json';
+// beers: kegsJson
+
 function ticketListReducer (state = {}, action) {
   const {id, department, name, pricePerUnit, unitsLeftInKeg, unitsPerKeg, numberOfKegs, costPerKeg, abv, ibu, description} = action;
   switch (action.type) {

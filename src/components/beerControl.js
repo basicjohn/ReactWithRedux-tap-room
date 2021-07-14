@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { connect } from 'react-redux';
 // Pages
 import Admin from './../pages/Admin';
 import Home from './../pages/Home';
@@ -10,14 +11,12 @@ import BeerDetail from './../pages/BeerDetail';
 import { v4 } from 'uuid';
 
 // Helpers/data
-import kegsJson from './../kegs.json';
 
 class BeerControl extends Component {
   constructor(props) {
     super(props);
     this.state = {
       currentPage: this.getCurrentLocation(),
-      beers: kegsJson
     }
   }
 
@@ -87,5 +86,7 @@ class BeerControl extends Component {
     );
   }
 }
+
+BeerControl = connect()(BeerControl);
 
 export default BeerControl;

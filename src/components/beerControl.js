@@ -77,26 +77,47 @@ class BeerControl extends Component {
     });
   }
 
- handleSellingBeer = (id) => {
+ handleSellingBeer = (soldBeer) => {
     const { dispatch } = this.props;
+    const { id, department, name, pricePerUnit, unitsLeftInKeg, unitsPerKeg, numberOfKegs, abv, ibu, description} = soldBeer;
+
     // const soldBeer = this.state.beers.filter(beer => beer.id === id)[0]
     const action1 = {
       type: 'DECREMENT_BEER',
-      id: id
-    }
+      id: id,
+      department: department,
+      name: name,
+      pricePerUnit: pricePerUnit,
+      unitsLeftInKeg: unitsLeftInKeg - 1,
+      unitsPerKeg: unitsPerKeg,
+      numberOfKegs: numberOfKegs,
+      abv: abv,
+      ibu: ibu,
+      description: description
 
+
+    }
     const action2 = {
       type: 'DECREMENT_BEER',
       id: id,
-      numberOfKegs: numberOfKegs - 1;
+      department: department,
+      name: name,
+      pricePerUnit: pricePerUnit,
+      unitsLeftInKeg: unitsPerKeg,
+      unitsPerKeg: unitsPerKeg,
+      numberOfKegs: numberOfKegs - 1,
+      abv: abv,
+      ibu: ibu,
+      description: description
+
     }
-    // if (soldBeer.UnitsLeftInKeg > 0) {
-    //   soldBeer.UnitsLeftInKeg -= 1
+    // if (soldBeer.unitsLeftInKeg > 0) {
+    //   soldBeer.unitsLeftInKeg -= 1
     // }
-    // else if ( soldBeer.UnitsLeftInKeg === 0 ) {
+    // else if ( soldBeer.unitsLeftInKeg === 0 ) {
     //   if (soldBeer.numberOfKegs > 0) {
     //     soldBeer.numberOfKegs -= 1
-    //     soldBeer.UnitsLeftInKeg = soldBeer.unitsPerKeg
+    //     soldBeer.unitsLeftInKeg = soldBeer.unitsPerKeg
     //   }
     // }
     dispatch(action)

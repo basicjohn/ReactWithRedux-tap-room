@@ -77,22 +77,33 @@ class BeerControl extends Component {
     });
   }
 
- handleSellingBeer = (id, department) => {
-    console.log(id, department)
-    const soldBeer = this.state.beers[department].filter(beer => beer.id === id)[0]
-    if (soldBeer.UnitsLeftInKeg > 0) {
-      soldBeer.UnitsLeftInKeg -= 1
+ handleSellingBeer = (id) => {
+    const { dispatch } = this.props;
+    // const soldBeer = this.state.beers.filter(beer => beer.id === id)[0]
+    const action1 = {
+      type: 'DECREMENT_BEER',
+      id: id
     }
-    else if ( soldBeer.UnitsLeftInKeg === 0 ) {
-      if (soldBeer.numberOfKegs > 0) {
-        soldBeer.numberOfKegs -= 1
-        soldBeer.UnitsLeftInKeg = soldBeer.unitsPerKeg
-      }
+
+    const action2 = {
+      type: 'DECREMENT_BEER',
+      id: id,
+      numberOfKegs: numberOfKegs - 1;
     }
-    const beerListCopy = this.state.beers[department]
-    .filter((beer) => beer.id !== id)
-    beerListCopy.push(soldBeer)
-    this.setState({ beers: beerListCopy })
+    // if (soldBeer.UnitsLeftInKeg > 0) {
+    //   soldBeer.UnitsLeftInKeg -= 1
+    // }
+    // else if ( soldBeer.UnitsLeftInKeg === 0 ) {
+    //   if (soldBeer.numberOfKegs > 0) {
+    //     soldBeer.numberOfKegs -= 1
+    //     soldBeer.UnitsLeftInKeg = soldBeer.unitsPerKeg
+    //   }
+    // }
+    dispatch(action)
+    // const beerListCopy = this.state.beers
+    // .filter((beer) => beer.id !== id)
+    // beerListCopy.push(soldBeer)
+    // this.setState({ beers: beerListCopy })
   };
 
   handleDeletingBeer = (id) => {

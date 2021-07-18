@@ -4,7 +4,7 @@
 
 ### Week 17 Project for the March 2021 Co-hort session: React with Redux
 
-A brief description of what this project does and who it's for
+This is a website for a Brewery to display and control their beer stock.
 
 ## Tech Stack
 

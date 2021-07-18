@@ -95,6 +95,15 @@ class BeerControl extends Component {
     this.setState({ beers: beerListCopy })
   };
 
+  handleDeletingBeer = (id) => {
+    const {dispatch} = this.props;
+    const action = {
+      type: 'DELETE_BEER',
+      id: id
+    }
+    dispatch(action);
+    this.setState({selectedBeer: null});
+  }
 
   render() {
     let currentlyVisibleState = null;

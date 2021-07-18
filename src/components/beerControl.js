@@ -30,13 +30,25 @@ class BeerControl extends Component {
     window.history.replaceState({}, 'Double Fountain Brewery', location);
   }
 
-  createBeer = (name, pricePerUnit, unitsPerKeg, numberOfKegs, abv, ibu, description, department) => {
-    console.log('Making new keg:', name, pricePerUnit, unitsPerKeg, numberOfKegs, abv, ibu, description);
-    const newBeer = {
-     id: v4(), name, pricePerUnit: Number(pricePerUnit), UnitsLeftInKeg: Number(unitsPerKeg), unitsPerKeg: Number(unitsPerKeg), numberOfKegs: Number(numberOfKegs), abv: Number(abv), ibu: Number(ibu), description
+  createBeer = (newBeer) => {
+    const {dispatch} = this.props;
+    const { id, department, name, pricePerUnit, unitsLeftInKeg, unitsPerKeg, numberOfKegs, abv, ibu, description} = newBeer;
+    const action = {
+      type: 'ADD_BEER',
+      id: id,
+      department: department,
+      name: name,
+      pricePerUnit: pricePerUnit,
+      unitsLeftInKeg: unitsLeftInKeg,
+      unitsPerKeg: unitsPerKeg,
+      numberOfKegs: numberOfKegs,
+      abv: abv,
+      ibu: ibu,
+      description
     }
-    const newBeersState = this.state.beers[department].concat(newBeer);
-    this.setState(prevState => { prevState.beers[department] = newBeersState })
+    dispatch(action);
+    // const newBeersState = this.state.beers[department].concat(newBeer);
+    // this.setState(prevState => { prevState.beers[department] = newBeersState })
   }
 
 

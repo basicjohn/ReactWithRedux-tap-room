@@ -17,6 +17,9 @@ class BeerControl extends Component {
     super(props);
     this.state = {
       currentPage: this.getCurrentLocation(),
+      formVisibleOnPage: false,
+      selectedBeer: null,
+      editing: false
     }
   }
 
@@ -30,7 +33,7 @@ class BeerControl extends Component {
     window.history.replaceState({}, 'Double Fountain Brewery', location);
   }
 
-  createBeer = (newBeer) => {
+  handleAddingNewBeerToList = (newBeer) => {
     const {dispatch} = this.props;
     const { id, department, name, pricePerUnit, unitsLeftInKeg, unitsPerKeg, numberOfKegs, abv, ibu, description} = newBeer;
     const action = {
@@ -44,13 +47,35 @@ class BeerControl extends Component {
       numberOfKegs: numberOfKegs,
       abv: abv,
       ibu: ibu,
-      description
+      description: description
     }
     dispatch(action);
     // const newBeersState = this.state.beers[department].concat(newBeer);
     // this.setState(prevState => { prevState.beers[department] = newBeersState })
   }
 
+  handleEditingBeerInList = (beerToEdit) => {
+    const { dispatch } = this.props;
+    const { id, department, name, pricePerUnit, unitsLeftInKeg, unitsPerKeg, numberOfKegs, abv, ibu, description} = beerToEdit;
+    const action = {
+      type: 'ADD_BEER',
+      id: id,
+      department: department,
+      name: name,
+      pricePerUnit: pricePerUnit,
+      unitsLeftInKeg: unitsLeftInKeg,
+      unitsPerKeg: unitsPerKeg,
+      numberOfKegs: numberOfKegs,
+      abv: abv,
+      ibu: ibu,
+      description: description
+    }
+    dispatch(action);
+    this.setState({
+      editing: false,
+      selectedBeer: null
+    });
+  }
 
  handleSellingBeer = (id, department) => {
     console.log(id, department)

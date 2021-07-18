@@ -1,7 +1,7 @@
 // import kegsJson from './../kegs.json';
 // beers: kegsJson
 
-function ticketListReducer (state = {}, action) {
+function beerListReducer (state = {}, action) {
   const {id, department, name, pricePerUnit, unitsLeftInKeg, unitsPerKeg, numberOfKegs, costPerKeg, abv, ibu, description} = action;
   switch (action.type) {
     case 'ADD_BEER':
@@ -29,4 +29,4 @@ function ticketListReducer (state = {}, action) {
   }
 };
 
-export default ticketListReducer;
+export default beerListReducer;

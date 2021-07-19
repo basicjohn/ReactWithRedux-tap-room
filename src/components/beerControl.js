@@ -94,8 +94,6 @@ class BeerControl extends Component {
       abv: abv,
       ibu: ibu,
       description: description
-
-
     }
     const action2 = {
       type: 'DECREMENT_BEER',
@@ -111,16 +109,12 @@ class BeerControl extends Component {
       description: description
 
     }
-    // if (soldBeer.unitsLeftInKeg > 0) {
-    //   soldBeer.unitsLeftInKeg -= 1
-    // }
-    // else if ( soldBeer.unitsLeftInKeg === 0 ) {
-    //   if (soldBeer.numberOfKegs > 0) {
-    //     soldBeer.numberOfKegs -= 1
-    //     soldBeer.unitsLeftInKeg = soldBeer.unitsPerKeg
-    //   }
-    // }
-    dispatch(action)
+    if (soldBeer.unitsLeftInKeg > 0) {
+      dispatch(action1)
+    }
+    else if ( soldBeer.unitsLeftInKeg === 0 ) {
+        dispatch(action2)
+    }
     // const beerListCopy = this.state.beers
     // .filter((beer) => beer.id !== id)
     // beerListCopy.push(soldBeer)
